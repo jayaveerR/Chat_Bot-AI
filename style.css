@@ -1,0 +1,53 @@
+/* Basic Body Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    /* Add padding to the bottom to prevent content from being hidden by the footer */
+    padding-bottom: 70px; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust height to fill space above footer */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-weight: 600;
+    margin: 0; /* Remove margin as flexbox now handles positioning */
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9rem;
+    border-top: 1px solid #e7e7e7;
+    animation: slideUpFadeIn 1s ease-out forwards;
+}
+
+/* Animation Keyframes */
+@keyframes slideUpFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
