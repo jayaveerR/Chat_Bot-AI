@@ -79,7 +79,7 @@ See `contributing.md` for ways to get started.
 |------|------------|
 | Automation | n8n |
 | AI Engine | OpenAI GPT |
-| Frontend | HTML, JS, Netlify |
+| Frontend | HTML,CSS,JS, Netlify |
 | Backend Trigger | n8n Webhook |
 | Storage | KV Store / Database |
 
