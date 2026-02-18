@@ -84,9 +84,3 @@ See `contributing.md` for ways to get started.
 | Storage | KV Store / Database |
 
 ---
-
-
-## Demo
-
-https://chatgptn8n.netlify.app/
-
