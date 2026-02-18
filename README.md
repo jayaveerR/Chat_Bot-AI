@@ -86,7 +86,3 @@ See `contributing.md` for ways to get started.
 ---
 
 
-## Demo
-
-https://chatgptn8n.netlify.app/
-
